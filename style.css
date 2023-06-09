@@ -61,9 +61,9 @@ span {
 .main-content {
   background: white;
   width: 66%;
+  margin-right: 30px;
 }
 .side-links {
-  background: black;
   width: 33%;
 }
 
@@ -72,6 +72,7 @@ article {
   border: 1px solid #ccc;
   padding: 1rem;
   border-radius: 5px;
+  margin-bottom: 1rem;
 }
 .art-img {
   margin-right: 20px;
@@ -92,9 +93,61 @@ article {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  color: white;
+}
+
+/* side links */
+.read-by-country,
+.read-by-date {
+  margin-top: 3.5rem;
+  padding: 1rem;
+  background: rgb(174, 174, 235);
+  border-radius: 5px;
+}
+.read-by-date {
+  background: rgb(105, 169, 217);
+}
+
+/* recc */
+.card {
+  box-shadow: -5px 5px 15px 5px grey;
+  background: white;
+  padding-bottom: 2rem;
+  border-radius: 5px;
+  width: 250px;
+}
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+.btn-card {
+  width: 100%;
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.recc {
+  background: green;
+  padding: 3rem 0;
+}
+
+/* subscribe part */
+
+.subs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
 }
 
 /* footer */
 .footer {
-  margin-top: 100px;
+  padding: 20px;
+  background-color: black;
+  color: bisque;
+  text-align: center;
 }
