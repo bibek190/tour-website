@@ -151,3 +151,103 @@ article {
   color: bisque;
   text-align: center;
 }
+
+/* @media (max-width: 900px) { */
+/* .main {
+    width: 100%;
+    display: block;
+    flex-direction: column;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .side-links {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .read-by-country {
+    width: 40%;
+  }
+  .read-by-date {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .side-links {
+    width: 100%;
+    display: block;
+  }
+  .read-by-country {
+    width: 100%;
+  }
+  .read-by-date {
+    width: 100%;
+  }
+} */
+
+/* mobile 768px */
+/* ipad 900px */
+
+@media (max-width: 992px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side-links,
+  .main-content {
+    width: 100%;
+  }
+  .side-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card-list {
+    gap: 1rem;
+  }
+  .ready-by-country,
+  .read-by-date {
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+  .art-img {
+    width: 100%;
+  }
+  .side-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-list {
+    gap: 1rem;
+  }
+  .card {
+    width: 100%;
+  }
+  .read-by-country,
+  .read-by-date {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
